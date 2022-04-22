@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { edit, changeStatus } from "./todoSlice";
+import { edit, changeStatus } from "../bussinessLogic/todoSlice";
 import {
   Button,
   Dialog,
@@ -9,7 +9,7 @@ import {
   DialogContentText,
   DialogTitle,
 } from "@material-ui/core";
-import RemoveTodo from "./RemoveTodo";
+import RemoveTodo from "../components/RemoveTodo";
 
 function ViewEditTodo({ todo }) {
   const [open, setOpen] = useState(false);

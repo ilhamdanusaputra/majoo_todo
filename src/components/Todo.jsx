@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { AddTodo } from "./AddTodo";
+import { AddTodo } from "../components/AddTodo";
 import {
   changeStatus,
   setTodoFilter,
   initAsync,
   selectTodos,
-} from "./todoSlice";
+} from "../bussinessLogic/todoSlice";
 import ViewEditTodo from "./ViewEditTodo";
 
 function Todo() {

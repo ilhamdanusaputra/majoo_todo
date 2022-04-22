@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { add } from "./todoSlice";
+import { add } from "../bussinessLogic/todoSlice";
 import {
   Button,
   Dialog,
